@@ -1,0 +1,16 @@
+#avgCheckOut, #avgCheckIn, #merged {
+    transform-origin: bottom left;
+    width: 400px;
+}
+
+#avgCheckIn {
+    transform: translate(770px, -499px) rotate(45deg);
+}
+
+#merged {
+    transform: translate(785px, -930px) rotate(135deg);
+}
+
+#avgCheckOut {
+    transform: translate(805px, -100px) rotate(225deg);
+}

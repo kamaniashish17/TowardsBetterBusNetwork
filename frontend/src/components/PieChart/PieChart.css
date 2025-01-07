@@ -1,0 +1,33 @@
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 8px;
+    font: 12px sans-serif;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    pointer-events: none; 
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+.pie-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pie-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; 
+}
+
+.route-label {
+    margin-left: 10px; 
+}
+
+#pieChartGroup {
+    width: 270px;
+    transform: translate(1070px, -730px) rotate(-45deg);
+}

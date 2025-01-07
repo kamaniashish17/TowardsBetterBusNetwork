@@ -1,0 +1,72 @@
+.table {
+    width: calc(100% - 20px); 
+    border-collapse: collapse;
+    border: 1px solid #ccc; 
+    margin-left: 10px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 1px; /* Reduced padding for table cells */
+    font-size: 10px; /* Reduced font size */
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-title {
+    margin-bottom: 2px; /* Reduced margin for header title */
+    font-weight: bold;
+    font-size: 12px; /* Reduced font size for header title */
+  }
+  
+  .sort-button {
+    margin-bottom: 2px; /* Reduced margin for sort button */
+    background-color: #f0f0f0;
+    border: 1px solid #d4d4d4;
+    padding: 2px 4px; /* Reduced padding for sort button */
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .sort-button img {
+    width: 12px; /* Reduced icon size */
+    height: 12px; /* Reduced icon size */
+    margin-left: auto;
+  }
+  
+  .sort-button:hover {
+    background-color: #e7e7e7;
+  }
+  
+  .table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .page-layout {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Enable vertical scrolling for the page */
+  }
+  
+  .upper-half {
+    flex: 1;
+  }
+  
+  .lower-half {
+    flex: 1;
+    overflow-y: hidden; /* Hide vertical scrollbar for the lower-half container */
+    overflow-x: hidden; /* Hide horizontal scrollbar for the lower-half container */
+    padding-right: 10px; /* Add padding to accommodate potential scrollbar width */
+  }

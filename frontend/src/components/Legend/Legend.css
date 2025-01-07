@@ -1,0 +1,42 @@
+#legendContainer {
+    width: 180px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+#checkInContainer, #checkOutContainer, #mergedContainer {
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#checkInDiv, #checkOutDiv, #mergedDiv {
+    display: inline-block;
+    width: 50px; 
+    height: 20px;
+}
+
+#checkInDiv {
+    background-color: #00B007;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#checkOutDiv {
+    background-color: #FFC300;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#mergedDiv {
+    background-color: #3C007B;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#checkInSpan, #checkOutSpan, #mergedSpan {
+    padding-left: 5px
+}

@@ -1,0 +1,41 @@
+.axis line, .axis text {
+    /* stroke: #070000;  */
+    fill: #000000;
+  }
+  
+  .axis text {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px; /* Larger font for better readability */
+  }
+  
+  .central-axis {
+    stroke-dasharray: 5, 5; /* Make dashes longer for better visibility */
+  }
+  
+  .grid-circle {
+    stroke: #6a6a6a; /* Lighter color for a subtler look */
+  }
+  
+  .area {
+    fill: #4C96FF; /* Use a different shade for a fresh look */
+    fill-opacity: 0.6; /* Adjust opacity for visibility */
+  }
+  
+  .label {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px; /* Larger labels */
+    fill: #333; /* Darker font color for readability */
+  }
+  
+  .title {
+    font-size: 18px; /* Make the title larger */
+    fill: #444; /* Darker color for prominence */
+  }
+
+
+  .radar-chart {
+    position: absolute; /* or `position: fixed;` depending on your layout */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
